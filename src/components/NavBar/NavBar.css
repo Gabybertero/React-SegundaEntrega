@@ -1,0 +1,40 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #c61212;
+  color: white;
+  height: 50px;
+  width: auto;
+}
+
+.NavBarH3 {
+  text-decoration: none;
+  margin: 0;
+  color: black;
+  
+}
+
+.Categories {
+  display: flex;
+  gap: 10px;
+}
+
+.NavBarOption {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.NavBarOption:hover,
+.ActiveOption {
+
+  background-color: #ffffff;
+  color: #e1197a;
+  border-radius: 5px;
+
+
+}

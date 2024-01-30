@@ -1,0 +1,10 @@
+.ItemDetailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    flex-flow: row nowrap;
+  }
+
+  

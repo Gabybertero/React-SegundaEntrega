@@ -1,0 +1,45 @@
+.DetailCard {
+    width: 700px !important;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .DetailCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .Header {
+    padding: 10px;
+    background-color: wheat;
+  }
+  
+  .ItemHeader {
+    color: rgb(197, 64, 64);
+    margin: 0;
+  }
+  
+  .picture {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .Info {
+    color: #000;
+    padding: 10px;
+  }
+  
+  .ItemFooter {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .ItemCountContainer {
+    margin-top: 10px;
+  }
+  
