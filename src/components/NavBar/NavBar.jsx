@@ -8,19 +8,19 @@ const NavBar = () => {
     return (
         <nav className='NavBar'>
             <Link to='/'>
-                <h3 activeClassName='NavBarH3'>Kick's Hub</h3>
+                <h3 activeclassname='NavBarH3'>Kick's Hub</h3>
             </Link>
             <div className='Categories'>
-                <NavLink to='/category/nike' activeClassName='ActiveOption' className='NavBarOption'>
+                <NavLink to='/category/nike' activeclassname='ActiveOption' className='NavBarOption'>
                     Nike
                 </NavLink>
-                <NavLink to='/category/adidas' activeClassName='ActiveOption' className='NavBarOption'>
+                <NavLink to='/category/adidas' activeclassname='ActiveOption' className='NavBarOption'>
                     Adidas
                 </NavLink>
-                <NavLink to='/category/puma' activeClassName='ActiveOption' className='NavBarOption'>
+                <NavLink to='/category/puma' activeclassname='ActiveOption' className='NavBarOption'>
                     Puma
                 </NavLink>
-                <NavLink to='/category/lacoste' activeClassName='ActiveOption' className='NavBarOption'>
+                <NavLink to='/category/lacoste' activeclassname='ActiveOption' className='NavBarOption'>
                     Lacoste
                 </NavLink>
             </div>
