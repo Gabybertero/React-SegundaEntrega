@@ -36,6 +36,26 @@ const ItemListContainer = ({ greeting }) => {
         })
 
     })
+    
+    
+    // const [products, setProducts] = useState([])
+
+    // const { categoryId } = useParams()
+
+    // useEffect(() => {
+    //     const productosRef = collection(db, "productos");
+        
+    //     getDocs(productosRef)
+    //         .then((resp) => {
+              
+    //             setProducts(
+    //                 resp.docs.map((doc) => {
+    //                     return { ...doc.data(), id: doc.id}
+    //                 })
+    //             );
+    //         })
+
+    // }, [categoryId])
 
     return (
         <div>
